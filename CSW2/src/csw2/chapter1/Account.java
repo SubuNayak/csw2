@@ -26,6 +26,8 @@ public class Account{
 	}
 	
 	public void display_details(){
+		System.out.println("Account Details");
+		System.out.println("---------------");
 		System.out.println("Name: "+name);
 		System.out.println("Account No: "+accNo);
 		System.out.println("Balance: "+balance);
