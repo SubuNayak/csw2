@@ -1,5 +1,7 @@
-package csw2.chapter1;
+package csw2.chapter2;
+
 import java.util.Scanner;
+import csw2.chapter1.Account;
 
 public class bankApp {
 
