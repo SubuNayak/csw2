@@ -18,7 +18,10 @@ public class Account{
 	}
 	
 	public void withdraw(double amount){
+		if(amount <= balance)
 		balance -= amount;
+		else
+			System.out.println("Insufficient Balance");
 	}
 	
 	public void display(){
@@ -31,6 +34,7 @@ public class Account{
 		System.out.println("Name: "+name);
 		System.out.println("Account No: "+accNo);
 		System.out.println("Balance: "+balance);
+		System.out.println();
 	}
 	
 }
