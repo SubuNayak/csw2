@@ -1,4 +1,4 @@
-package csw2.chapter2;
+package csw2.chapter1_1;
 
 import java.util.*;
 import csw2.chapter1.BubbleSort;
