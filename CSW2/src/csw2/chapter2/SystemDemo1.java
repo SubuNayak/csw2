@@ -7,7 +7,13 @@ public class SystemDemo1 {
 	public static void main(String[] args) {
 		
 		Properties p = System.getProperties();
-		p.list(System.out);
+		//p.list(System.out);
+		System.out.println("OS Name: "+System.getProperty("os.name"));
+		System.out.println("OS Version: "+System.getProperty("os.version"));
+		System.out.println("OS Architecture: "+System.getProperty("os.arch"));
+		System.out.println("Java Class Path: "+System.getProperty("java.class.path"));
+		System.out.println("OS Architecture: "+System.getProperty("os.version"));
+		System.out.println("OS Architecture: "+System.getProperty("os.version"));
 		/*Set<Object> keyset = p.keySet();
 		for(Object key:keyset) {
 			System.out.println("Key is "+key );
