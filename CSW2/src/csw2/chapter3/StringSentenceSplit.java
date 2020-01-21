@@ -1,7 +1,7 @@
 package csw2.chapter3;
 import java.util.Scanner;
 
-public class StringSplit {
+public class StringSentenceSplit {
 
 	public static void main(String[] args) {
 		
@@ -10,10 +10,10 @@ public class StringSplit {
 		String s = sc.next();
 		s += sc.nextLine();
 		
-		
-		String words[] = s.split(" ");
-		//String words[] = s.split("\\s+");
-		System.out.println("The no of words are: "+words.length);
+		int n = s.indexOf(" ");
+		String s1 = s.substring(0, n+1);
+		String s2 = s.substring(n, s.length());
+		System.out.println(s1+" | "+s2);
 		
 	}
 
