@@ -34,6 +34,16 @@ public class Regex_boundary_matchers {
 		System.out.println(Pattern.matches("[a-z][A-Z]", "acd"));
 		System.out.println(Pattern.matches("[a-z][A-Z]", "bB"));
 		System.out.println(Pattern.matches("[a-z][A-Z]", "a"));
+		System.out.println(Pattern.matches("[a-z][A-Z]", "a"));
+		System.out.println("--------------------------------");
+		System.out.println(Pattern.matches("[tTJj]om|[Jj]an", "Tom"));
+		System.out.println(Pattern.matches("[tTJj]om|[Jj]an", "tom"));
+		System.out.println(Pattern.matches("[tTJj]om|[Jj]an", "Jan"));
+		System.out.println(Pattern.matches("[tTJj]om|[Jj]an", "jan"));
+		System.out.println("--------------------------------");
+		System.out.println(Pattern.matches("An[^ nd].*", "Angie"));
+		System.out.println("--------------------------------");
+		System.out.println(Pattern.matches(".*@.*.com", "jeevan@gmail.com"));
 	}
 
 }
