@@ -11,7 +11,7 @@ public class SystemDemo {
 		Map<String, String> map = System.getenv();
 		
 		for(Map.Entry<String, String> entry: map.entrySet()) {
-			System.out.println("Variable name" + entry.getKey() + "value is "+entry.getValue());
+			System.out.println("Variable name = " + entry.getKey() + " & value is = "+entry.getValue());
 			
 		}
 		
