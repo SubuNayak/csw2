@@ -5,8 +5,8 @@ public class SystemDemo {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Read specific environment variable");
-		System.out.println("PATH value" + System.getenv("PATH"));
+//		System.out.println("Read specific environment variable");
+//		System.out.println("PATH value" + System.getenv("PATH"));
 		System.out.println("\n Read All environment variable:- \n");
 		Map<String, String> map = System.getenv();
 		
