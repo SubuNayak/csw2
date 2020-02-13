@@ -2,7 +2,7 @@ package csw2.chapter4;
 import java.util.regex.*;
 import java.util.Scanner;
 
-public class StringReplace102 {
+public class StrReplace102 {
 
 	public static void main(String[] args) {
 		
