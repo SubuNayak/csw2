@@ -39,6 +39,18 @@ public class Numbers102 {
 		System.out.println("obj10 "+obj10);
 		
 		// unboxing process
+		/* To take out respective p.d.t values out of Wrapper Class objects 
+		 * following methods are used
+		 * byteValue()
+		 * shortValue()
+		 * intValue()
+		 * longValue()
+		 * floatValue()
+		 * doubleValue()
+		 * charValue()
+		 * booleanValue() 
+		 * */
+		
 		int a = obj1.intValue();
 		String s1 = obj1.toString();
 		int b = obj3.intValue();
