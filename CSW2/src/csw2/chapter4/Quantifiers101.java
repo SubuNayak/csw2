@@ -19,11 +19,11 @@ public class Quantifiers101 {
 		System.out.println("--------------------");
 		System.out.println(Pattern.matches("[pqr]*", "ppq"));
 		System.out.println(Pattern.matches("[pqr]*", "qq"));
-		System.out.println(Pattern.matches("[pqr]*", "p"));
+		System.out.println(Pattern.matches("[pqr]*", "rrrrr"));
 		System.out.println("--------------------");
 		System.out.println(Pattern.matches("\\d", "abc"));
 		System.out.println(Pattern.matches("\\d", "1"));
-		System.out.println(Pattern.matches("\\D", "pp"));
+		System.out.println(Pattern.matches("\\D", "p"));
 		System.out.println(Pattern.matches("\\D", "1"));
 		System.out.println(Pattern.matches("\\D.*", "ITER"));
 		

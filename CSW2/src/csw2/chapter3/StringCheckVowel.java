@@ -10,7 +10,7 @@ public class StringCheckVowel {
 		System.out.println("Enter a String:");
 		String s = sc.next();
 		s += sc.nextLine();
-		s.trim();
+		s = s.trim();
 		System.out.println(s);
 		s = s.toLowerCase();
 		for(int i=0; i<s.length(); i++)
@@ -26,6 +26,7 @@ public class StringCheckVowel {
 			}
 		System.out.println("No. of vowels: "+v);
 		System.out.println("No. of consonants: "+c);
+		
 
 	}
 

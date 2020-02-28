@@ -1,3 +1,4 @@
+// Remove white spaces from a string
 package csw2.chapter4;
 import java.util.regex.*;
 import java.util.Scanner;
