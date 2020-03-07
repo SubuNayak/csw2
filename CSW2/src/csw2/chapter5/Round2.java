@@ -11,7 +11,7 @@ public class Round2 {
 		
 		form.setMaximumFractionDigits(2);
 		
-		System.out.println(form.format(d));
+		System.out.println(form.format(d)); 
 	}
 
 }
