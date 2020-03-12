@@ -11,11 +11,11 @@ public class Prog_1 {
 		String s = sc.nextLine();
 		System.out.println("Enter the second string:");
 		String s1 = sc.nextLine();
-		
+
 		String s2 = s.substring(0, 6);
 		String s3 = s1.substring(0, 8);
 		System.out.println(s2.concat(s3));
-		
+
 	}
 
 }

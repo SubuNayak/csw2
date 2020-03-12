@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
 public class Regex_boundary_matchers {
 
 	public static void main(String[] args) {
-		
+
 		System.out.println(Pattern.matches("^cat", "cat"));
 		System.out.println(Pattern.matches("cat$", "abc cat"));
 		System.out.println(Pattern.matches("\bcat\b", "abc catxyz"));

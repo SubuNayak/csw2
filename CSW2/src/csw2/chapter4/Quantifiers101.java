@@ -6,7 +6,7 @@ import java.util.regex.Matcher;
 public class Quantifiers101 {
 
 	public static void main(String[] args) {
-		
+
 		System.out.println(Pattern.matches("[pqr]?", "p"));
 		System.out.println(Pattern.matches("[pqr]?.*", "pp"));
 		System.out.println(Pattern.matches("[pqr]?", "ppq"));
@@ -26,7 +26,7 @@ public class Quantifiers101 {
 		System.out.println(Pattern.matches("\\D", "p"));
 		System.out.println(Pattern.matches("\\D", "1"));
 		System.out.println(Pattern.matches("\\D.*", "ITER"));
-		
+
 	}
 
 }

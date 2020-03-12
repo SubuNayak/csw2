@@ -6,9 +6,9 @@ public class FormatPlurals {
 		report(1);
 		report(2);
 	}
-	
+
 	/** report -- using conditional operator */
 	public static void report(int n) {
-		System.out.println("We used " + n + " item" + (n==1?"":"s"));
+		System.out.println("We used " + n + " item" + (n == 1 ? "" : "s"));
 	}
 }
